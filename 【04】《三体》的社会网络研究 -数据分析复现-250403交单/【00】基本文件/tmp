@@ -1,0 +1,357 @@
+这篇论文主要通过**自然语言处理（NLP）**和**社会网络分析（SNA）**的方法，对《三体》系列小说中的人物关系进行量化研究，并结合女性主义理论进行解读。分析的核心包括以下几个方面：
+
+---
+
+## 1. 数据分析方法
+### **（1）文本数据预处理**
+1. **深度阅读文本，构建人物词典**
+   - 先手工整理人物名单，建立两份词典：
+     - **正式姓名词典**（如：罗辑、程心、叶文洁）
+     - **别称映射词典**（如：罗辑 -> 小罗、罗兄、罗教授）
+
+2. **实体识别**
+   - 使用**Python的NLP工具（如jieba、spaCy等）**进行**分词**和**实体识别**，提取小说中的人物名称。
+
+---
+
+### **（2）人物关系构建**
+1. **共现分析（Co-occurrence Analysis）**
+   - **定义人物关系：** 两个人物在小说**同一行**同时出现，视为存在一次联系。
+   - **建立共现矩阵：** 统计小说文本中人物的共现次数，形成**人物-人物共现矩阵**（即邻接矩阵）。
+
+2. **数据清洗**
+   - 过滤出现次数较少的人物，最终确定**180名人物**和**368对共现关系**。
+
+---
+
+### **（3）社会网络分析**
+1. **使用 Gephi 进行可视化**
+   - 导入清洗后的**人物-人物共现矩阵**，构建社交网络。
+   - **节点（Node）：** 代表小说中的角色。
+   - **边（Edge）：** 代表人物间的联系（共现次数）。
+   - 过滤掉**共现次数小于5的弱联系**，确保主要人物关系清晰可见。
+
+2. **计算社会网络中心性指标**
+   - **度中心性（Degree Centrality）**
+     - 计算角色的**直接连接数**，代表人物的影响力。
+     - 统计**度中心性最高的角色**，发现**智子、程心**等女性角色占据重要位置。
+
+   - **中介中心性（Betweenness Centrality）**
+     - 计算角色**在其他人物间的最短路径上**出现的次数，衡量其在网络中的“桥梁”作用。
+     - 发现**智子在整个社交网络中是最核心的节点**，连接多个主要角色。
+
+   - **特征向量中心性（Eigenvector Centrality）**
+     - 计算角色是否与其他**重要角色**有较多联系，衡量人物的社会影响力。
+     - 发现**智子、程心、叶文洁等女性角色在小说中具有很强的网络影响力**。
+
+---
+
+## 2. Python 代码示例
+**（1）数据预处理 - 分词和实体识别**
+```python
+import jieba
+import jieba.posseg as pseg
+
+# 读取小说文本
+with open("san_ti.txt", "r", encoding="utf-8") as f:
+    text = f.read()
+
+# 自定义人物词典
+jieba.load_userdict("character_dict.txt")
+
+# 分词并进行实体识别
+words = pseg.cut(text)
+characters = [word for word, flag in words if flag == 'nr']  # 仅提取人名（nr代表人名）
+
+# 统计出现次数
+from collections import Counter
+char_counts = Counter(characters)
+
+# 过滤出现次数过少的角色
+filtered_chars = {char: count for char, count in char_counts.items() if count > 5}
+
+print(filtered_chars)
+```
+
+---
+
+**（2）共现矩阵构建**
+```python
+import networkx as nx
+import numpy as np
+import pandas as pd
+
+# 假设共现数据存储在 co_occurrence_matrix.csv
+df = pd.read_csv("co_occurrence_matrix.csv", index_col=0)
+
+# 创建无向图
+G = nx.Graph()
+
+# 添加节点
+for character in df.columns:
+    G.add_node(character, weight=df[character].sum())  # 以出现次数作为权重
+
+# 添加边
+for char1 in df.columns:
+    for char2 in df.columns:
+        weight = df.loc[char1, char2]
+        if weight > 0:
+            G.add_edge(char1, char2, weight=weight)
+
+print("Graph Created with", len(G.nodes), "nodes and", len(G.edges), "edges")
+```
+
+---
+
+**（3）计算社会网络中心性**
+```python
+# 计算度中心性
+degree_centrality = nx.degree_centrality(G)
+
+# 计算中介中心性
+betweenness_centrality = nx.betweenness_centrality(G)
+
+# 计算特征向量中心性
+eigenvector_centrality = nx.eigenvector_centrality(G)
+
+# 将数据保存为 DataFrame 进行分析
+centrality_df = pd.DataFrame({
+    "Character": list(degree_centrality.keys()),
+    "Degree": list(degree_centrality.values()),
+    "Betweenness": list(betweenness_centrality.values()),
+    "Eigenvector": list(eigenvector_centrality.values())
+})
+
+# 排序并查看前10个角色
+print(centrality_df.sort_values(by="Degree", ascending=False).head(10))
+```
+
+---
+
+**（4）导出数据到 Gephi**
+```python
+nx.write_gexf(G, "san_ti_network.gexf")  # 生成Gephi可视化文件
+```
+
+---
+
+## 3. 论文的核心观点总结
+1. **人物网络分析方法**
+   - 通过NLP提取人物，并构建**共现矩阵**。
+   - 通过Python和Gephi构建**社交网络**并分析中心性。
+
+2. **女性角色的重要性**
+   - **智子、程心、叶文洁**等女性角色在**度中心性、中介中心性、特征向量中心性**等指标上排名前列。
+   - 说明她们在故事中的社交网络中占据**重要的资源和权力位置**。
+
+3. **女性主义视角**
+   - 论文通过波伏娃的女性主义理论，认为《三体》的女性角色成功突破了**传统父权社会的束缚**。
+   - 小说中的未来社会呈现**“女性化”趋势**，女性在社会网络中获得了更大的**话语权和影响力**。
+
+---
+
+## 4. 结论
+这篇论文采用了**文本挖掘**和**社会网络分析**的定量研究方法，构建了《三体》人物关系网络，并结合女性主义理论进行分析。Python代码展示了数据提取、关系构建和中心性计算的全过程，为未来类似的文学数据分析提供了参考。
+
+
+
+好的，我们可以完整构建一个可复现的实验流程，包括**数据准备、数据处理、关系分析、网络可视化**等步骤。以下是详细的实验流程，包括所需数据、数据准备方法和完整的代码实现。  
+
+---
+
+# **实验流程**
+## **1. 数据准备**
+### **（1）所需数据**
+- **小说文本**：《三体》全书的文本数据（TXT格式）。
+- **人物词典**：
+  - **正式姓名词典**（如：罗辑、程心、叶文洁）
+  - **别称映射词典**（如：罗辑 -> 小罗、罗教授）
+- **共现矩阵**：
+  - **记录人物在文本中的共现次数**，即两个角色同时出现在**相同行**或**相邻N行**中。
+
+---
+
+### **（2）数据来源**
+1. **小说文本数据**
+   - **方式1（手动）：** 可以从电子书（如 Kindle、网盘资源）导出《三体》文本。
+   - **方式2（爬取）：** 可使用 Python 爬取在线小说网站（如起点、豆瓣读书）。
+   - **方式3（公开数据集）：** 查找 GitHub 或 NLP 公开数据资源。
+
+2. **人物词典**
+   - **手工整理**：《三体》中的人物可以手动提取，构建正式姓名词典。
+   - **自动生成**：
+     - 从小说文本中提取所有**高频人名**。
+     - 结合 NLP **共现分析**自动发现别称。
+
+3. **共现矩阵**
+   - **手工标注**：找出**主要角色的共现关系**，建立基础数据。
+   - **自动生成**：
+     - 使用 NLP 分词后，检测**人物名**是否在**同一行或相邻N行**出现。
+     - 统计**人物对（Character Pairs）**的共现次数。
+
+---
+
+## **2. 数据预处理**
+### **（1）分词与实体识别**
+**目标：**
+- 使用 **jieba** 或 **HanLP** 进行**中文分词**，识别**人名**。
+- 过滤掉**非人名的词**，形成**正式姓名列表**。
+
+**代码实现：**
+```python
+import jieba
+import jieba.posseg as pseg
+from collections import Counter
+
+# 加载小说文本
+with open("san_ti.txt", "r", encoding="utf-8") as f:
+    text = f.readlines()
+
+# 加载人物词典
+jieba.load_userdict("character_dict.txt")
+
+# 识别人名
+char_counts = Counter()
+for line in text:
+    words = pseg.cut(line)
+    for word, flag in words:
+        if flag == "nr":  # 'nr' 代表人名
+            char_counts[word] += 1
+
+# 过滤出现次数过少的角色（例如至少出现5次）
+character_dict = {char: count for char, count in char_counts.items() if count > 5}
+
+# 保存正式姓名词典
+with open("formal_names.txt", "w", encoding="utf-8") as f:
+    for char in character_dict.keys():
+        f.write(char + "\n")
+
+print("正式姓名词典构建完成，共计:", len(character_dict), "个角色")
+```
+
+---
+
+### **（2）构建共现矩阵**
+**目标：**
+- 计算**人物之间的共现次数**。
+- 统计两个人物**在同一行或相邻N行**出现的频率。
+
+**代码实现：**
+```python
+import pandas as pd
+import itertools
+
+# 读取人物词典
+with open("formal_names.txt", "r", encoding="utf-8") as f:
+    characters = [line.strip() for line in f.readlines()]
+
+# 初始化共现矩阵
+co_occurrence = {char: {char2: 0 for char2 in characters} for char in characters}
+
+# 统计共现次数
+window_size = 3  # 设置窗口大小，如3行以内视为共现
+for i in range(len(text)):
+    window_text = " ".join(text[i:i + window_size])  # 取当前行+后N行
+
+    # 统计当前窗口内的角色
+    present_chars = [char for char in characters if char in window_text]
+
+    # 计算两两共现次数
+    for char1, char2 in itertools.combinations(present_chars, 2):
+        co_occurrence[char1][char2] += 1
+        co_occurrence[char2][char1] += 1
+
+# 转换为 DataFrame
+df_co_occurrence = pd.DataFrame(co_occurrence)
+df_co_occurrence.to_csv("co_occurrence_matrix.csv")
+
+print("共现矩阵构建完成，数据已保存至 co_occurrence_matrix.csv")
+```
+
+---
+
+## **3. 社会网络分析**
+### **（1）使用 NetworkX 构建社交网络**
+**目标：**
+- 用 **NetworkX** 构建人物关系图。
+- 计算 **社交网络中心性指标**（度中心性、中介中心性、特征向量中心性）。
+
+**代码实现：**
+```python
+import networkx as nx
+
+# 读取共现矩阵
+df = pd.read_csv("co_occurrence_matrix.csv", index_col=0)
+
+# 构建无向图
+G = nx.Graph()
+
+# 添加节点
+for character in df.columns:
+    G.add_node(character, weight=df[character].sum())  # 以出现次数作为权重
+
+# 添加边
+for char1 in df.columns:
+    for char2 in df.columns:
+        weight = df.loc[char1, char2]
+        if weight > 5:  # 过滤掉共现次数过少的边
+            G.add_edge(char1, char2, weight=weight)
+
+print("社交网络图构建完成，共计", len(G.nodes), "个节点和", len(G.edges), "条边")
+```
+
+---
+
+### **（2）计算中心性指标**
+```python
+# 计算度中心性
+degree_centrality = nx.degree_centrality(G)
+
+# 计算中介中心性
+betweenness_centrality = nx.betweenness_centrality(G)
+
+# 计算特征向量中心性
+eigenvector_centrality = nx.eigenvector_centrality(G)
+
+# 整理数据
+centrality_df = pd.DataFrame({
+    "Character": list(degree_centrality.keys()),
+    "Degree": list(degree_centrality.values()),
+    "Betweenness": list(betweenness_centrality.values()),
+    "Eigenvector": list(eigenvector_centrality.values())
+})
+
+# 按度数排序
+print(centrality_df.sort_values(by="Degree", ascending=False).head(10))
+```
+
+---
+
+## **4. Gephi 可视化**
+### **（1）导出数据到 Gephi**
+```python
+nx.write_gexf(G, "san_ti_network.gexf")  # 生成 Gephi 文件
+```
+- **Gephi** 是一个专业的数据可视化工具，可以加载 `.gexf` 文件，绘制人物关系图。
+- 通过调整**颜色、节点大小、边的权重**，可以直观分析**《三体》中的人物关系网**。
+
+---
+
+# **实验流程总结**
+✅ **数据准备**
+- 获取《三体》文本数据（TXT）。
+- 构建**人物词典**（正式姓名+别称映射）。
+- 统计**人物共现矩阵**。
+
+✅ **数据处理**
+- **分词+实体识别**（使用 NLP 提取人名）。
+- **统计共现次数**（计算两两角色的关系）。
+
+✅ **网络分析**
+- 使用 **NetworkX** 计算**度中心性、中介中心性、特征向量中心性**。
+- 发现《三体》中**智子、程心、叶文洁**等女性角色的核心地位。
+
+✅ **Gephi 可视化**
+- 生成 `.gexf` 文件，在 Gephi 中绘制社交网络。
+
+通过本实验，可以定量研究《三体》中的**人物社交网络**，并结合**女性主义理论**进行深入解读！

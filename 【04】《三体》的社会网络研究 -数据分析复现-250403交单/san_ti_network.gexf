@@ -1,0 +1,1019 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd" version="1.2">
+  <meta lastmodifieddate="2025-04-03">
+    <creator>NetworkX 3.4.2</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes mode="static" class="node">
+      <attribute id="0" title="weight" type="int" />
+    </attributes>
+    <nodes>
+      <node id="汪淼" label="汪淼">
+        <attvalues>
+          <attvalue for="0" value="779" />
+        </attvalues>
+      </node>
+      <node id="史强" label="史强">
+        <attvalues>
+          <attvalue for="0" value="1109" />
+        </attvalues>
+      </node>
+      <node id="常伟思" label="常伟思">
+        <attvalues>
+          <attvalue for="0" value="263" />
+        </attvalues>
+      </node>
+      <node id="丁仪" label="丁仪">
+        <attvalues>
+          <attvalue for="0" value="366" />
+        </attvalues>
+      </node>
+      <node id="杨冬" label="杨冬">
+        <attvalues>
+          <attvalue for="0" value="152" />
+        </attvalues>
+      </node>
+      <node id="魏成" label="魏成">
+        <attvalues>
+          <attvalue for="0" value="107" />
+        </attvalues>
+      </node>
+      <node id="沙瑞山" label="沙瑞山">
+        <attvalues>
+          <attvalue for="0" value="73" />
+        </attvalues>
+      </node>
+      <node id="徐冰冰" label="徐冰冰">
+        <attvalues>
+          <attvalue for="0" value="54" />
+        </attvalues>
+      </node>
+      <node id="斯坦顿" label="斯坦顿">
+        <attvalues>
+          <attvalue for="0" value="67" />
+        </attvalues>
+      </node>
+      <node id="林云" label="林云">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="李瑶" label="李瑶">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="豆豆" label="豆豆">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="楠楠" label="楠楠">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="洋洋" label="洋洋">
+        <attvalues>
+          <attvalue for="0" value="52" />
+        </attvalues>
+      </node>
+      <node id="咪咪" label="咪咪">
+        <attvalues>
+          <attvalue for="0" value="9" />
+        </attvalues>
+      </node>
+      <node id="叶文洁" label="叶文洁">
+        <attvalues>
+          <attvalue for="0" value="813" />
+        </attvalues>
+      </node>
+      <node id="杨卫宁" label="杨卫宁">
+        <attvalues>
+          <attvalue for="0" value="232" />
+        </attvalues>
+      </node>
+      <node id="雷志成" label="雷志成">
+        <attvalues>
+          <attvalue for="0" value="199" />
+        </attvalues>
+      </node>
+      <node id="叶哲泰" label="叶哲泰">
+        <attvalues>
+          <attvalue for="0" value="78" />
+        </attvalues>
+      </node>
+      <node id="邵琳" label="邵琳">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="叶文雪" label="叶文雪">
+        <attvalues>
+          <attvalue for="0" value="17" />
+        </attvalues>
+      </node>
+      <node id="白沐霖" label="白沐霖">
+        <attvalues>
+          <attvalue for="0" value="76" />
+        </attvalues>
+      </node>
+      <node id="程丽华" label="程丽华">
+        <attvalues>
+          <attvalue for="0" value="49" />
+        </attvalues>
+      </node>
+      <node id="红卫兵1" label="红卫兵1">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="红卫兵2" label="红卫兵2">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="唐红静" label="唐红静">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="红卫兵3" label="红卫兵3">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="红卫兵4" label="红卫兵4">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="阮雯" label="阮雯">
+        <attvalues>
+          <attvalue for="0" value="5" />
+        </attvalues>
+      </node>
+      <node id="马钢" label="马钢">
+        <attvalues>
+          <attvalue for="0" value="13" />
+        </attvalues>
+      </node>
+      <node id="齐猎头" label="齐猎头">
+        <attvalues>
+          <attvalue for="0" value="27" />
+        </attvalues>
+      </node>
+      <node id="大凤" label="大凤">
+        <attvalues>
+          <attvalue for="0" value="24" />
+        </attvalues>
+      </node>
+      <node id="伊文斯" label="伊文斯">
+        <attvalues>
+          <attvalue for="0" value="556" />
+        </attvalues>
+      </node>
+      <node id="潘寒" label="潘寒">
+        <attvalues>
+          <attvalue for="0" value="94" />
+        </attvalues>
+      </node>
+      <node id="申玉菲" label="申玉菲">
+        <attvalues>
+          <attvalue for="0" value="147" />
+        </attvalues>
+      </node>
+      <node id="拉菲尔" label="拉菲尔">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="核弹女孩" label="核弹女孩">
+        <attvalues>
+          <attvalue for="0" value="550" />
+        </attvalues>
+      </node>
+      <node id="元首" label="元首">
+        <attvalues>
+          <attvalue for="0" value="134" />
+        </attvalues>
+      </node>
+      <node id="1379号监听员" label="1379号监听员">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="科学执政官" label="科学执政官">
+        <attvalues>
+          <attvalue for="0" value="96" />
+        </attvalues>
+      </node>
+      <node id="军事执政官" label="军事执政官">
+        <attvalues>
+          <attvalue for="0" value="488" />
+        </attvalues>
+      </node>
+      <node id="农业执政官" label="农业执政官">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="工业执政官" label="工业执政官">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="文教执政官" label="文教执政官">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="罗辑" label="罗辑">
+        <attvalues>
+          <attvalue for="0" value="1970" />
+        </attvalues>
+      </node>
+      <node id="庄颜" label="庄颜">
+        <attvalues>
+          <attvalue for="0" value="309" />
+        </attvalues>
+      </node>
+      <node id="弗雷德里克·泰勒" label="弗雷德里克·泰勒">
+        <attvalues>
+          <attvalue for="0" value="268" />
+        </attvalues>
+      </node>
+      <node id="曼努尔·雷迪亚兹" label="曼努尔·雷迪亚兹">
+        <attvalues>
+          <attvalue for="0" value="272" />
+        </attvalues>
+      </node>
+      <node id="比尔·希恩斯" label="比尔·希恩斯">
+        <attvalues>
+          <attvalue for="0" value="410" />
+        </attvalues>
+      </node>
+      <node id="冯·诺依曼" label="冯·诺依曼">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="墨子" label="墨子">
+        <attvalues>
+          <attvalue for="0" value="46" />
+        </attvalues>
+      </node>
+      <node id="山杉惠子" label="山杉惠子">
+        <attvalues>
+          <attvalue for="0" value="228" />
+        </attvalues>
+      </node>
+      <node id="萨伊" label="萨伊">
+        <attvalues>
+          <attvalue for="0" value="147" />
+        </attvalues>
+      </node>
+      <node id="伽尔宁" label="伽尔宁">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="坎特" label="坎特">
+        <attvalues>
+          <attvalue for="0" value="230" />
+        </attvalues>
+      </node>
+      <node id="张翔" label="张翔">
+        <attvalues>
+          <attvalue for="0" value="36" />
+        </attvalues>
+      </node>
+      <node id="井上宏一" label="井上宏一">
+        <attvalues>
+          <attvalue for="0" value="29" />
+        </attvalues>
+      </node>
+      <node id="伽尔诺夫" label="伽尔诺夫">
+        <attvalues>
+          <attvalue for="0" value="132" />
+        </attvalues>
+      </node>
+      <node id="本·乔纳森" label="本·乔纳森">
+        <attvalues>
+          <attvalue for="0" value="81" />
+        </attvalues>
+      </node>
+      <node id="章北海" label="章北海">
+        <attvalues>
+          <attvalue for="0" value="456" />
+        </attvalues>
+      </node>
+      <node id="吴岳" label="吴岳">
+        <attvalues>
+          <attvalue for="0" value="155" />
+        </attvalues>
+      </node>
+      <node id="斐兹罗将军" label="斐兹罗将军">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="雷德尔" label="雷德尔">
+        <attvalues>
+          <attvalue for="0" value="19" />
+        </attvalues>
+      </node>
+      <node id="麦克·伊文斯" label="麦克·伊文斯">
+        <attvalues>
+          <attvalue for="0" value="556" />
+        </attvalues>
+      </node>
+      <node id="琼斯" label="琼斯">
+        <attvalues>
+          <attvalue for="0" value="20" />
+        </attvalues>
+      </node>
+      <node id="威尔逊" label="威尔逊">
+        <attvalues>
+          <attvalue for="0" value="29" />
+        </attvalues>
+      </node>
+      <node id="凯瑟琳" label="凯瑟琳">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="林格" label="林格">
+        <attvalues>
+          <attvalue for="0" value="131" />
+        </attvalues>
+      </node>
+      <node id="哈里斯" label="哈里斯">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="艾伦" label="艾伦">
+        <attvalues>
+          <attvalue for="0" value="45" />
+        </attvalues>
+      </node>
+      <node id="麦克" label="麦克">
+        <attvalues>
+          <attvalue for="0" value="583" />
+        </attvalues>
+      </node>
+      <node id="威廉·科兹莫" label="威廉·科兹莫">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="褚岩" label="褚岩">
+        <attvalues>
+          <attvalue for="0" value="44" />
+        </attvalues>
+      </node>
+      <node id="东方延绪" label="东方延绪">
+        <attvalues>
+          <attvalue for="0" value="212" />
+        </attvalues>
+      </node>
+      <node id="列文" label="列文">
+        <attvalues>
+          <attvalue for="0" value="31" />
+        </attvalues>
+      </node>
+      <node id="井上明" label="井上明">
+        <attvalues>
+          <attvalue for="0" value="80" />
+        </attvalues>
+      </node>
+      <node id="蓝西" label="蓝西">
+        <attvalues>
+          <attvalue for="0" value="46" />
+        </attvalues>
+      </node>
+      <node id="赵鑫" label="赵鑫">
+        <attvalues>
+          <attvalue for="0" value="35" />
+        </attvalues>
+      </node>
+      <node id="李维" label="李维">
+        <attvalues>
+          <attvalue for="0" value="35" />
+        </attvalues>
+      </node>
+      <node id="西子" label="西子">
+        <attvalues>
+          <attvalue for="0" value="82" />
+        </attvalues>
+      </node>
+      <node id="斯科特" label="斯科特">
+        <attvalues>
+          <attvalue for="0" value="22" />
+        </attvalues>
+      </node>
+      <node id="卡尔·乔伊娜" label="卡尔·乔伊娜">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="塞巴斯蒂安·史耐德" label="塞巴斯蒂安·史耐德">
+        <attvalues>
+          <attvalue for="0" value="19" />
+        </attvalues>
+      </node>
+      <node id="鲍里斯·洛文斯基" label="鲍里斯·洛文斯基">
+        <attvalues>
+          <attvalue for="0" value="20" />
+        </attvalues>
+      </node>
+      <node id="白蓉" label="白蓉">
+        <attvalues>
+          <attvalue for="0" value="76" />
+        </attvalues>
+      </node>
+      <node id="张援朝" label="张援朝">
+        <attvalues>
+          <attvalue for="0" value="106" />
+        </attvalues>
+      </node>
+      <node id="张为明" label="张为明">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="晓虹" label="晓虹">
+        <attvalues>
+          <attvalue for="0" value="3" />
+        </attvalues>
+      </node>
+      <node id="张延" label="张延">
+        <attvalues>
+          <attvalue for="0" value="30" />
+        </attvalues>
+      </node>
+      <node id="杨晋文" label="杨晋文">
+        <attvalues>
+          <attvalue for="0" value="87" />
+        </attvalues>
+      </node>
+      <node id="苗福全" label="苗福全">
+        <attvalues>
+          <attvalue for="0" value="75" />
+        </attvalues>
+      </node>
+      <node id="史晓明" label="史晓明">
+        <attvalues>
+          <attvalue for="0" value="105" />
+        </attvalues>
+      </node>
+      <node id="熊文" label="熊文">
+        <attvalues>
+          <attvalue for="0" value="36" />
+        </attvalues>
+      </node>
+      <node id="郭正明" label="郭正明">
+        <attvalues>
+          <attvalue for="0" value="12" />
+        </attvalues>
+      </node>
+      <node id="肯博士" label="肯博士">
+        <attvalues>
+          <attvalue for="0" value="16" />
+        </attvalues>
+      </node>
+      <node id="罗宾逊将军" label="罗宾逊将军">
+        <attvalues>
+          <attvalue for="0" value="140" />
+        </attvalues>
+      </node>
+      <node id="章北海的父亲" label="章北海的父亲">
+        <attvalues>
+          <attvalue for="0" value="6" />
+        </attvalues>
+      </node>
+      <node id="程心" label="程心">
+        <attvalues>
+          <attvalue for="0" value="2525" />
+        </attvalues>
+      </node>
+      <node id="狄奥伦娜" label="狄奥伦娜">
+        <attvalues>
+          <attvalue for="0" value="68" />
+        </attvalues>
+      </node>
+      <node id="康斯坦丁十一世" label="康斯坦丁十一世">
+        <attvalues>
+          <attvalue for="0" value="71" />
+        </attvalues>
+      </node>
+      <node id="法扎兰" label="法扎兰">
+        <attvalues>
+          <attvalue for="0" value="69" />
+        </attvalues>
+      </node>
+      <node id="云天明" label="云天明">
+        <attvalues>
+          <attvalue for="0" value="643" />
+        </attvalues>
+      </node>
+      <node id="老李" label="老李">
+        <attvalues>
+          <attvalue for="0" value="31" />
+        </attvalues>
+      </node>
+      <node id="艾AA" label="艾AA">
+        <attvalues>
+          <attvalue for="0" value="924" />
+        </attvalues>
+      </node>
+      <node id="张医生" label="张医生">
+        <attvalues>
+          <attvalue for="0" value="55" />
+        </attvalues>
+      </node>
+      <node id="胡文" label="胡文">
+        <attvalues>
+          <attvalue for="0" value="66" />
+        </attvalues>
+      </node>
+      <node id="何博士" label="何博士">
+        <attvalues>
+          <attvalue for="0" value="49" />
+        </attvalues>
+      </node>
+      <node id="托马斯·维德" label="托马斯·维德">
+        <attvalues>
+          <attvalue for="0" value="543" />
+        </attvalues>
+      </node>
+      <node id="米哈伊尔·瓦季姆" label="米哈伊尔·瓦季姆">
+        <attvalues>
+          <attvalue for="0" value="149" />
+        </attvalues>
+      </node>
+      <node id="于维民" label="于维民">
+        <attvalues>
+          <attvalue for="0" value="30" />
+        </attvalues>
+      </node>
+      <node id="柯曼琳" label="柯曼琳">
+        <attvalues>
+          <attvalue for="0" value="45" />
+        </attvalues>
+      </node>
+      <node id="乔依娜" label="乔依娜">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="毕云峰" label="毕云峰">
+        <attvalues>
+          <attvalue for="0" value="123" />
+        </attvalues>
+      </node>
+      <node id="曹彬" label="曹彬">
+        <attvalues>
+          <attvalue for="0" value="261" />
+        </attvalues>
+      </node>
+      <node id="安东诺夫" label="安东诺夫">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="A·J·霍普金斯" label="A·J·霍普金斯">
+        <attvalues>
+          <attvalue for="0" value="4" />
+        </attvalues>
+      </node>
+      <node id="智子" label="智子">
+        <attvalues>
+          <attvalue for="0" value="849" />
+        </attvalues>
+      </node>
+      <node id="关一帆" label="关一帆">
+        <attvalues>
+          <attvalue for="0" value="602" />
+        </attvalues>
+      </node>
+      <node id="约瑟夫·莫沃维奇" label="约瑟夫·莫沃维奇">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="韦斯特" label="韦斯特">
+        <attvalues>
+          <attvalue for="0" value="91" />
+        </attvalues>
+      </node>
+      <node id="戴文" label="戴文">
+        <attvalues>
+          <attvalue for="0" value="21" />
+        </attvalues>
+      </node>
+      <node id="伊万" label="伊万">
+        <attvalues>
+          <attvalue for="0" value="10" />
+        </attvalues>
+      </node>
+      <node id="薇拉" label="薇拉">
+        <attvalues>
+          <attvalue for="0" value="41" />
+        </attvalues>
+      </node>
+      <node id="艾克" label="艾克">
+        <attvalues>
+          <attvalue for="0" value="65" />
+        </attvalues>
+      </node>
+      <node id="刘晓明" label="刘晓明">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="詹姆斯·亨特" label="詹姆斯·亨特">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="秋原玲子" label="秋原玲子">
+        <attvalues>
+          <attvalue for="0" value="2" />
+        </attvalues>
+      </node>
+      <node id="朴义君" label="朴义君">
+        <attvalues>
+          <attvalue for="0" value="15" />
+        </attvalues>
+      </node>
+      <node id="卓文" label="卓文">
+        <attvalues>
+          <attvalue for="0" value="28" />
+        </attvalues>
+      </node>
+      <node id="弗雷斯" label="弗雷斯">
+        <attvalues>
+          <attvalue for="0" value="126" />
+        </attvalues>
+      </node>
+      <node id="深水王子" label="深水王子">
+        <attvalues>
+          <attvalue for="0" value="68" />
+        </attvalues>
+      </node>
+      <node id="露珠公主" label="露珠公主">
+        <attvalues>
+          <attvalue for="0" value="76" />
+        </attvalues>
+      </node>
+      <node id="针眼画师" label="针眼画师">
+        <attvalues>
+          <attvalue for="0" value="36" />
+        </attvalues>
+      </node>
+      <node id="空灵画师" label="空灵画师">
+        <attvalues>
+          <attvalue for="0" value="27" />
+        </attvalues>
+      </node>
+      <node id="长帆" label="长帆">
+        <attvalues>
+          <attvalue for="0" value="40" />
+        </attvalues>
+      </node>
+      <node id="巴勒莫" label="巴勒莫">
+        <attvalues>
+          <attvalue for="0" value="29" />
+        </attvalues>
+      </node>
+      <node id="杰森" label="杰森">
+        <attvalues>
+          <attvalue for="0" value="56" />
+        </attvalues>
+      </node>
+      <node id="威纳尔" label="威纳尔">
+        <attvalues>
+          <attvalue for="0" value="7" />
+        </attvalues>
+      </node>
+      <node id="阿历克塞·瓦西里" label="阿历克塞·瓦西里">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="高way" label="高way">
+        <attvalues>
+          <attvalue for="0" value="1" />
+        </attvalues>
+      </node>
+      <node id="布莱尔" label="布莱尔">
+        <attvalues>
+          <attvalue for="0" value="8" />
+        </attvalues>
+      </node>
+      <node id="歌者" label="歌者">
+        <attvalues>
+          <attvalue for="0" value="0" />
+        </attvalues>
+      </node>
+      <node id="白Ice" label="白Ice">
+        <attvalues>
+          <attvalue for="0" value="20" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="汪淼" target="史强" id="0" weight="184" />
+      <edge source="汪淼" target="常伟思" id="1" weight="57" />
+      <edge source="汪淼" target="丁仪" id="2" weight="94" />
+      <edge source="汪淼" target="杨冬" id="3" weight="52" />
+      <edge source="汪淼" target="魏成" id="4" weight="43" />
+      <edge source="汪淼" target="沙瑞山" id="5" weight="42" />
+      <edge source="汪淼" target="徐冰冰" id="6" weight="16" />
+      <edge source="汪淼" target="斯坦顿" id="7" weight="21" />
+      <edge source="汪淼" target="洋洋" id="8" weight="8" />
+      <edge source="汪淼" target="叶文洁" id="9" weight="59" />
+      <edge source="汪淼" target="叶哲泰" id="10" weight="16" />
+      <edge source="汪淼" target="潘寒" id="11" weight="28" />
+      <edge source="汪淼" target="申玉菲" id="12" weight="60" />
+      <edge source="汪淼" target="核弹女孩" id="13" weight="12" />
+      <edge source="汪淼" target="军事执政官" id="14" weight="17" />
+      <edge source="汪淼" target="墨子" id="15" weight="38" />
+      <edge source="史强" target="常伟思" id="16" weight="51" />
+      <edge source="史强" target="丁仪" id="17" weight="30" />
+      <edge source="史强" target="魏成" id="18" weight="35" />
+      <edge source="史强" target="徐冰冰" id="19" weight="12" />
+      <edge source="史强" target="斯坦顿" id="20" weight="31" />
+      <edge source="史强" target="叶文洁" id="21" weight="7" />
+      <edge source="史强" target="申玉菲" id="22" weight="20" />
+      <edge source="史强" target="核弹女孩" id="23" weight="32" />
+      <edge source="史强" target="军事执政官" id="24" weight="14" />
+      <edge source="史强" target="罗辑" id="25" weight="528" />
+      <edge source="史强" target="庄颜" id="26" weight="16" />
+      <edge source="史强" target="比尔·希恩斯" id="27" weight="11" />
+      <edge source="史强" target="坎特" id="28" weight="54" />
+      <edge source="史强" target="史晓明" id="29" weight="21" />
+      <edge source="史强" target="郭正明" id="30" weight="7" />
+      <edge source="史强" target="张医生" id="31" weight="7" />
+      <edge source="常伟思" target="斯坦顿" id="32" weight="6" />
+      <edge source="常伟思" target="军事执政官" id="33" weight="26" />
+      <edge source="常伟思" target="弗雷德里克·泰勒" id="34" weight="6" />
+      <edge source="常伟思" target="比尔·希恩斯" id="35" weight="14" />
+      <edge source="常伟思" target="章北海" id="36" weight="74" />
+      <edge source="常伟思" target="吴岳" id="37" weight="8" />
+      <edge source="常伟思" target="智子" id="38" weight="8" />
+      <edge source="丁仪" target="杨冬" id="39" weight="21" />
+      <edge source="丁仪" target="核弹女孩" id="40" weight="12" />
+      <edge source="丁仪" target="军事执政官" id="41" weight="41" />
+      <edge source="丁仪" target="弗雷德里克·泰勒" id="42" weight="22" />
+      <edge source="丁仪" target="章北海" id="43" weight="29" />
+      <edge source="丁仪" target="西子" id="44" weight="46" />
+      <edge source="丁仪" target="智子" id="45" weight="28" />
+      <edge source="丁仪" target="白Ice" id="46" weight="7" />
+      <edge source="杨冬" target="叶文洁" id="47" weight="28" />
+      <edge source="杨冬" target="罗辑" id="48" weight="10" />
+      <edge source="杨冬" target="智子" id="49" weight="6" />
+      <edge source="魏成" target="徐冰冰" id="50" weight="12" />
+      <edge source="魏成" target="申玉菲" id="51" weight="12" />
+      <edge source="沙瑞山" target="叶文洁" id="52" weight="11" />
+      <edge source="沙瑞山" target="叶哲泰" id="53" weight="7" />
+      <edge source="洋洋" target="军事执政官" id="54" weight="6" />
+      <edge source="叶文洁" target="杨卫宁" id="55" weight="128" />
+      <edge source="叶文洁" target="雷志成" id="56" weight="91" />
+      <edge source="叶文洁" target="叶哲泰" id="57" weight="21" />
+      <edge source="叶文洁" target="叶文雪" id="58" weight="6" />
+      <edge source="叶文洁" target="白沐霖" id="59" weight="58" />
+      <edge source="叶文洁" target="程丽华" id="60" weight="35" />
+      <edge source="叶文洁" target="齐猎头" id="61" weight="10" />
+      <edge source="叶文洁" target="大凤" id="62" weight="11" />
+      <edge source="叶文洁" target="伊文斯" id="63" weight="61" />
+      <edge source="叶文洁" target="潘寒" id="64" weight="20" />
+      <edge source="叶文洁" target="核弹女孩" id="65" weight="26" />
+      <edge source="叶文洁" target="军事执政官" id="66" weight="8" />
+      <edge source="叶文洁" target="罗辑" id="67" weight="36" />
+      <edge source="叶文洁" target="章北海" id="68" weight="6" />
+      <edge source="叶文洁" target="麦克·伊文斯" id="69" weight="61" />
+      <edge source="叶文洁" target="麦克" id="70" weight="61" />
+      <edge source="叶文洁" target="艾AA" id="71" weight="6" />
+      <edge source="叶文洁" target="智子" id="72" weight="10" />
+      <edge source="杨卫宁" target="雷志成" id="73" weight="84" />
+      <edge source="叶哲泰" target="核弹女孩" id="74" weight="23" />
+      <edge source="白沐霖" target="马钢" id="75" weight="9" />
+      <edge source="齐猎头" target="大凤" id="76" weight="6" />
+      <edge source="伊文斯" target="申玉菲" id="77" weight="7" />
+      <edge source="伊文斯" target="罗辑" id="78" weight="8" />
+      <edge source="伊文斯" target="麦克·伊文斯" id="79" weight="229" />
+      <edge source="伊文斯" target="麦克" id="80" weight="229" />
+      <edge source="伊文斯" target="智子" id="81" weight="7" />
+      <edge source="潘寒" target="申玉菲" id="82" weight="19" />
+      <edge source="申玉菲" target="麦克·伊文斯" id="83" weight="7" />
+      <edge source="申玉菲" target="麦克" id="84" weight="7" />
+      <edge source="核弹女孩" target="军事执政官" id="85" weight="12" />
+      <edge source="核弹女孩" target="罗辑" id="86" weight="74" />
+      <edge source="核弹女孩" target="庄颜" id="87" weight="20" />
+      <edge source="核弹女孩" target="弗雷德里克·泰勒" id="88" weight="8" />
+      <edge source="核弹女孩" target="曼努尔·雷迪亚兹" id="89" weight="40" />
+      <edge source="核弹女孩" target="比尔·希恩斯" id="90" weight="7" />
+      <edge source="核弹女孩" target="西子" id="91" weight="8" />
+      <edge source="核弹女孩" target="程心" id="92" weight="77" />
+      <edge source="核弹女孩" target="云天明" id="93" weight="36" />
+      <edge source="核弹女孩" target="艾AA" id="94" weight="27" />
+      <edge source="核弹女孩" target="何博士" id="95" weight="17" />
+      <edge source="核弹女孩" target="托马斯·维德" id="96" weight="17" />
+      <edge source="核弹女孩" target="米哈伊尔·瓦季姆" id="97" weight="10" />
+      <edge source="核弹女孩" target="智子" id="98" weight="7" />
+      <edge source="元首" target="1379号监听员" id="99" weight="8" />
+      <edge source="元首" target="科学执政官" id="100" weight="57" />
+      <edge source="元首" target="军事执政官" id="101" weight="17" />
+      <edge source="元首" target="罗辑" id="102" weight="6" />
+      <edge source="元首" target="智子" id="103" weight="31" />
+      <edge source="科学执政官" target="军事执政官" id="104" weight="8" />
+      <edge source="科学执政官" target="智子" id="105" weight="24" />
+      <edge source="军事执政官" target="罗辑" id="106" weight="13" />
+      <edge source="军事执政官" target="弗雷德里克·泰勒" id="107" weight="6" />
+      <edge source="军事执政官" target="坎特" id="108" weight="9" />
+      <edge source="军事执政官" target="章北海" id="109" weight="47" />
+      <edge source="军事执政官" target="东方延绪" id="110" weight="12" />
+      <edge source="军事执政官" target="蓝西" id="111" weight="19" />
+      <edge source="军事执政官" target="赵鑫" id="112" weight="7" />
+      <edge source="军事执政官" target="李维" id="113" weight="6" />
+      <edge source="军事执政官" target="西子" id="114" weight="18" />
+      <edge source="军事执政官" target="斯科特" id="115" weight="9" />
+      <edge source="军事执政官" target="塞巴斯蒂安·史耐德" id="116" weight="12" />
+      <edge source="军事执政官" target="鲍里斯·洛文斯基" id="117" weight="8" />
+      <edge source="军事执政官" target="罗宾逊将军" id="118" weight="7" />
+      <edge source="军事执政官" target="程心" id="119" weight="9" />
+      <edge source="军事执政官" target="狄奥伦娜" id="120" weight="8" />
+      <edge source="军事执政官" target="法扎兰" id="121" weight="11" />
+      <edge source="军事执政官" target="智子" id="122" weight="14" />
+      <edge source="军事执政官" target="关一帆" id="123" weight="19" />
+      <edge source="军事执政官" target="韦斯特" id="124" weight="12" />
+      <edge source="军事执政官" target="薇拉" id="125" weight="9" />
+      <edge source="军事执政官" target="艾克" id="126" weight="16" />
+      <edge source="军事执政官" target="露珠公主" id="127" weight="6" />
+      <edge source="罗辑" target="庄颜" id="128" weight="218" />
+      <edge source="罗辑" target="弗雷德里克·泰勒" id="129" weight="65" />
+      <edge source="罗辑" target="曼努尔·雷迪亚兹" id="130" weight="24" />
+      <edge source="罗辑" target="比尔·希恩斯" id="131" weight="62" />
+      <edge source="罗辑" target="山杉惠子" id="132" weight="17" />
+      <edge source="罗辑" target="萨伊" id="133" weight="75" />
+      <edge source="罗辑" target="坎特" id="134" weight="121" />
+      <edge source="罗辑" target="张翔" id="135" weight="13" />
+      <edge source="罗辑" target="伽尔诺夫" id="136" weight="29" />
+      <edge source="罗辑" target="本·乔纳森" id="137" weight="50" />
+      <edge source="罗辑" target="章北海" id="138" weight="21" />
+      <edge source="罗辑" target="吴岳" id="139" weight="11" />
+      <edge source="罗辑" target="麦克·伊文斯" id="140" weight="8" />
+      <edge source="罗辑" target="林格" id="141" weight="19" />
+      <edge source="罗辑" target="麦克" id="142" weight="8" />
+      <edge source="罗辑" target="东方延绪" id="143" weight="6" />
+      <edge source="罗辑" target="白蓉" id="144" weight="50" />
+      <edge source="罗辑" target="史晓明" id="145" weight="35" />
+      <edge source="罗辑" target="熊文" id="146" weight="32" />
+      <edge source="罗辑" target="罗宾逊将军" id="147" weight="11" />
+      <edge source="罗辑" target="程心" id="148" weight="170" />
+      <edge source="罗辑" target="康斯坦丁十一世" id="149" weight="18" />
+      <edge source="罗辑" target="艾AA" id="150" weight="74" />
+      <edge source="罗辑" target="张医生" id="151" weight="7" />
+      <edge source="罗辑" target="托马斯·维德" id="152" weight="19" />
+      <edge source="罗辑" target="智子" id="153" weight="93" />
+      <edge source="庄颜" target="弗雷德里克·泰勒" id="154" weight="15" />
+      <edge source="庄颜" target="比尔·希恩斯" id="155" weight="6" />
+      <edge source="庄颜" target="坎特" id="156" weight="9" />
+      <edge source="庄颜" target="智子" id="157" weight="8" />
+      <edge source="弗雷德里克·泰勒" target="曼努尔·雷迪亚兹" id="158" weight="44" />
+      <edge source="弗雷德里克·泰勒" target="比尔·希恩斯" id="159" weight="32" />
+      <edge source="弗雷德里克·泰勒" target="萨伊" id="160" weight="6" />
+      <edge source="弗雷德里克·泰勒" target="井上宏一" id="161" weight="12" />
+      <edge source="弗雷德里克·泰勒" target="伽尔诺夫" id="162" weight="9" />
+      <edge source="弗雷德里克·泰勒" target="章北海" id="163" weight="9" />
+      <edge source="弗雷德里克·泰勒" target="井上明" id="164" weight="12" />
+      <edge source="弗雷德里克·泰勒" target="智子" id="165" weight="11" />
+      <edge source="曼努尔·雷迪亚兹" target="比尔·希恩斯" id="166" weight="37" />
+      <edge source="曼努尔·雷迪亚兹" target="伽尔诺夫" id="167" weight="45" />
+      <edge source="曼努尔·雷迪亚兹" target="艾伦" id="168" weight="35" />
+      <edge source="曼努尔·雷迪亚兹" target="麦克" id="169" weight="6" />
+      <edge source="曼努尔·雷迪亚兹" target="康斯坦丁十一世" id="170" weight="6" />
+      <edge source="曼努尔·雷迪亚兹" target="智子" id="171" weight="11" />
+      <edge source="比尔·希恩斯" target="山杉惠子" id="172" weight="144" />
+      <edge source="比尔·希恩斯" target="伽尔诺夫" id="173" weight="7" />
+      <edge source="比尔·希恩斯" target="本·乔纳森" id="174" weight="22" />
+      <edge source="比尔·希恩斯" target="吴岳" id="175" weight="28" />
+      <edge source="比尔·希恩斯" target="威尔逊" id="176" weight="9" />
+      <edge source="比尔·希恩斯" target="智子" id="177" weight="18" />
+      <edge source="山杉惠子" target="吴岳" id="178" weight="24" />
+      <edge source="山杉惠子" target="威尔逊" id="179" weight="6" />
+      <edge source="山杉惠子" target="智子" id="180" weight="10" />
+      <edge source="萨伊" target="坎特" id="181" weight="7" />
+      <edge source="萨伊" target="程心" id="182" weight="13" />
+      <edge source="萨伊" target="云天明" id="183" weight="9" />
+      <edge source="萨伊" target="托马斯·维德" id="184" weight="6" />
+      <edge source="坎特" target="张翔" id="185" weight="11" />
+      <edge source="坎特" target="伽尔诺夫" id="186" weight="7" />
+      <edge source="井上宏一" target="井上明" id="187" weight="14" />
+      <edge source="伽尔诺夫" target="曹彬" id="188" weight="6" />
+      <edge source="章北海" target="吴岳" id="189" weight="64" />
+      <edge source="章北海" target="东方延绪" id="190" weight="131" />
+      <edge source="章北海" target="列文" id="191" weight="7" />
+      <edge source="章北海" target="井上明" id="192" weight="12" />
+      <edge source="章北海" target="蓝西" id="193" weight="6" />
+      <edge source="章北海" target="康斯坦丁十一世" id="194" weight="8" />
+      <edge source="雷德尔" target="琼斯" id="195" weight="12" />
+      <edge source="麦克·伊文斯" target="麦克" id="196" weight="229" />
+      <edge source="麦克·伊文斯" target="智子" id="197" weight="7" />
+      <edge source="林格" target="罗宾逊将军" id="198" weight="77" />
+      <edge source="林格" target="智子" id="199" weight="6" />
+      <edge source="麦克" target="程心" id="200" weight="7" />
+      <edge source="麦克" target="智子" id="201" weight="8" />
+      <edge source="麦克" target="关一帆" id="202" weight="6" />
+      <edge source="褚岩" target="关一帆" id="203" weight="25" />
+      <edge source="东方延绪" target="列文" id="204" weight="11" />
+      <edge source="东方延绪" target="井上明" id="205" weight="15" />
+      <edge source="东方延绪" target="蓝西" id="206" weight="9" />
+      <edge source="列文" target="井上明" id="207" weight="13" />
+      <edge source="蓝西" target="斯科特" id="208" weight="12" />
+      <edge source="赵鑫" target="李维" id="209" weight="27" />
+      <edge source="白蓉" target="程心" id="210" weight="11" />
+      <edge source="白蓉" target="智子" id="211" weight="6" />
+      <edge source="张援朝" target="张延" id="212" weight="8" />
+      <edge source="张援朝" target="杨晋文" id="213" weight="40" />
+      <edge source="张援朝" target="苗福全" id="214" weight="24" />
+      <edge source="张援朝" target="史晓明" id="215" weight="15" />
+      <edge source="张延" target="史晓明" id="216" weight="7" />
+      <edge source="杨晋文" target="苗福全" id="217" weight="32" />
+      <edge source="苗福全" target="史晓明" id="218" weight="6" />
+      <edge source="史晓明" target="艾克" id="219" weight="6" />
+      <edge source="肯博士" target="罗宾逊将军" id="220" weight="9" />
+      <edge source="程心" target="云天明" id="221" weight="293" />
+      <edge source="程心" target="艾AA" id="222" weight="549" />
+      <edge source="程心" target="胡文" id="223" weight="22" />
+      <edge source="程心" target="托马斯·维德" id="224" weight="321" />
+      <edge source="程心" target="米哈伊尔·瓦季姆" id="225" weight="80" />
+      <edge source="程心" target="于维民" id="226" weight="12" />
+      <edge source="程心" target="柯曼琳" id="227" weight="21" />
+      <edge source="程心" target="毕云峰" id="228" weight="38" />
+      <edge source="程心" target="曹彬" id="229" weight="156" />
+      <edge source="程心" target="智子" id="230" weight="257" />
+      <edge source="程心" target="关一帆" id="231" weight="338" />
+      <edge source="程心" target="弗雷斯" id="232" weight="70" />
+      <edge source="程心" target="深水王子" id="233" weight="6" />
+      <edge source="程心" target="露珠公主" id="234" weight="6" />
+      <edge source="程心" target="杰森" id="235" weight="12" />
+      <edge source="狄奥伦娜" target="康斯坦丁十一世" id="236" weight="6" />
+      <edge source="狄奥伦娜" target="法扎兰" id="237" weight="51" />
+      <edge source="康斯坦丁十一世" target="法扎兰" id="238" weight="7" />
+      <edge source="云天明" target="老李" id="239" weight="26" />
+      <edge source="云天明" target="艾AA" id="240" weight="41" />
+      <edge source="云天明" target="张医生" id="241" weight="23" />
+      <edge source="云天明" target="胡文" id="242" weight="32" />
+      <edge source="云天明" target="何博士" id="243" weight="28" />
+      <edge source="云天明" target="托马斯·维德" id="244" weight="10" />
+      <edge source="云天明" target="于维民" id="245" weight="7" />
+      <edge source="云天明" target="智子" id="246" weight="55" />
+      <edge source="云天明" target="关一帆" id="247" weight="33" />
+      <edge source="云天明" target="深水王子" id="248" weight="8" />
+      <edge source="云天明" target="露珠公主" id="249" weight="6" />
+      <edge source="云天明" target="针眼画师" id="250" weight="6" />
+      <edge source="艾AA" target="托马斯·维德" id="251" weight="34" />
+      <edge source="艾AA" target="毕云峰" id="252" weight="7" />
+      <edge source="艾AA" target="曹彬" id="253" weight="24" />
+      <edge source="艾AA" target="智子" id="254" weight="38" />
+      <edge source="艾AA" target="关一帆" id="255" weight="59" />
+      <edge source="艾AA" target="弗雷斯" id="256" weight="25" />
+      <edge source="艾AA" target="巴勒莫" id="257" weight="6" />
+      <edge source="艾AA" target="杰森" id="258" weight="17" />
+      <edge source="托马斯·维德" target="米哈伊尔·瓦季姆" id="259" weight="43" />
+      <edge source="托马斯·维德" target="于维民" id="260" weight="6" />
+      <edge source="托马斯·维德" target="柯曼琳" id="261" weight="9" />
+      <edge source="托马斯·维德" target="毕云峰" id="262" weight="20" />
+      <edge source="托马斯·维德" target="曹彬" id="263" weight="12" />
+      <edge source="托马斯·维德" target="智子" id="264" weight="19" />
+      <edge source="托马斯·维德" target="弗雷斯" id="265" weight="7" />
+      <edge source="米哈伊尔·瓦季姆" target="柯曼琳" id="266" weight="9" />
+      <edge source="毕云峰" target="曹彬" id="267" weight="29" />
+      <edge source="毕云峰" target="智子" id="268" weight="9" />
+      <edge source="毕云峰" target="巴勒莫" id="269" weight="6" />
+      <edge source="毕云峰" target="杰森" id="270" weight="8" />
+      <edge source="曹彬" target="智子" id="271" weight="9" />
+      <edge source="曹彬" target="巴勒莫" id="272" weight="6" />
+      <edge source="智子" target="关一帆" id="273" weight="54" />
+      <edge source="智子" target="戴文" id="274" weight="6" />
+      <edge source="智子" target="弗雷斯" id="275" weight="14" />
+      <edge source="关一帆" target="韦斯特" id="276" weight="40" />
+      <edge source="关一帆" target="卓文" id="277" weight="12" />
+      <edge source="韦斯特" target="戴文" id="278" weight="7" />
+      <edge source="韦斯特" target="艾克" id="279" weight="6" />
+      <edge source="韦斯特" target="卓文" id="280" weight="12" />
+      <edge source="薇拉" target="艾克" id="281" weight="24" />
+      <edge source="深水王子" target="露珠公主" id="282" weight="21" />
+      <edge source="深水王子" target="针眼画师" id="283" weight="6" />
+      <edge source="深水王子" target="空灵画师" id="284" weight="7" />
+      <edge source="深水王子" target="长帆" id="285" weight="8" />
+      <edge source="露珠公主" target="针眼画师" id="286" weight="10" />
+      <edge source="露珠公主" target="长帆" id="287" weight="19" />
+      <edge source="针眼画师" target="空灵画师" id="288" weight="7" />
+    </edges>
+  </graph>
+</gexf>
